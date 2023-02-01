@@ -1,0 +1,48 @@
+
+<div class="container m-5 p-3">
+    <form [formGroup]="updateStudentForm">
+        <div class="from-group mb-3">
+            <label for="">Fullname</label>
+            <input formControlName="full_name" type="text" name="fullName" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Age</label>
+            <input formControlName="age" type="number" name="userid" class="form-control" >
+        </div>
+        
+        <div class="from-group mb-3">
+            <label for="">Dob</label>
+            <input formControlName="dob" type="text" name="number" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Phno</label>
+            <input formControlName="phno" type="text" name="number" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Email</label>
+            <input formControlName="email" type="text" name="number" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Parents Name</label>
+            <input formControlName="pname" type="text" name="number" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Address</label>
+            <input formControlName="address" type="text" name="number" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Blood Group</label>
+            <input formControlName="bgroup" type="text" name="number" class="form-control">
+        </div>
+        <div class="from-group mb-3">
+            <label for="">Course ID</label>
+            <input formControlName="cid" type="number" name="number" class="form-control">
+        </div>
+
+        <div class="header d-flex justify-content-center">
+            <button color="warn" mat-raised-button mat-dialog-close class="me-2">Close</button>
+            <button color="primary" mat-raised-button type="submit" (click)="updateStudents()" routerLink="/students">Submit</button>
+        </div>
+    </form>
+</div>
+

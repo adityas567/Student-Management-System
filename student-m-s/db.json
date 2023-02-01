@@ -1,0 +1,26 @@
+{
+  "studentList": [
+    {
+      "name": "Barsha Mishra",
+      "username": 21,
+      "dob": "vsv",
+      "phno": "svdv",
+      "email": "scds",
+      "pname": "sdcs",
+      "address": "cs",
+      "bgroup": "dsc",
+      "cid": 1,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
